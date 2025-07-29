@@ -59,7 +59,7 @@ Then run:
 python scripts/find_best_init.py
 python scripts/cache_warmup.py
 ```
-We provide the first-frame reconstruction results generated during the code release preparation.
+We provide the [first-frame reconstruction results](https://drive.google.com/drive/folders/1f35t2ptnkpPFM4b8Jn0NhSjcukjQRBl7?usp=sharing) generated during the code release preparation.
 ### Sequential Frame Reconstruction
 ```bash
 bash scripts/train_frames.sh
