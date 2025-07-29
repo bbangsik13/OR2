@@ -1,0 +1,10 @@
+matplotlib
+scipy
+opencv-python-headless
+tqdm
+plyfile
+argparse
+commentjson
+imageio
+imageio[ffmpeg]
+imageio[pyav]

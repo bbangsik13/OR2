@@ -1,0 +1,8 @@
+data/
+output*/
+__pycache__/
+*.mp4
+*.pyc
+ntc/*.pth
+logs/
+3dgs_init*/
