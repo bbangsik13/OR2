@@ -20,7 +20,6 @@ rm -r $ROOT_DIR/$scene
 
 mv $ROOT_DIR/coffee_martini $ROOT_DIR/coffee_martini_wo_cam13
 
-# video to frame
 for scene_dir in $ROOT_DIR/*; do
     scene_name=$(basename $scene_dir)
     for mp4_file in $scene_dir/cam*.mp4; do
@@ -42,7 +41,6 @@ for scene_dir in $ROOT_DIR/*; do
     done
 done
 
-frame 이동
 for scene_dir in $ROOT_DIR/*; do
     scene_name=$(basename $scene_dir)
     for cam_dir in $scene_dir/cam*; do

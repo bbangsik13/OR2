@@ -45,6 +45,7 @@ We recommand to change `DATA_PATH` in `scripts/download_n3v.sh` due to the large
 bash scripts/download_n3v.sh
 bash scripts/preprocess_data.sh
 bash scripts/colmap.sh
+python scripts/get_static_masks.py -m mask -s data
 ```
 
 ## Run
